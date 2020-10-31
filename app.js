@@ -61,7 +61,7 @@ app.use(Router);
 app.get('/', (req, res) => {
   res.status(200).json({
     status: 200,
-    message: 'API checked ✅',
+    message: 'API checked ✅ and working well (status 200)',
   });
 });
 
