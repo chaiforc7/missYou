@@ -4,7 +4,7 @@ const parser = require('../helper/cloudinary');
 const { tributeValidator, photoValidator, validate } = require('../helper/validator');
 const memorialController = require('../controllers/memorialController');
 const galleryController = require('../controllers/galleryController');
-
+//using versioning
 const authUrl = '/api/v1/auth/';
 const url = '/api/v1/';
 
