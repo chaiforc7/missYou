@@ -26,7 +26,7 @@ class galleryController {
       const message = `
       <p> 
         <p> 
-          ${values.name} has uploaded a photo on <a href="www.missyou.io/memorial/${memorial.webAddress}"> ${memorial.firstname}'s Memorial Page</a>
+          ${values.name}  uploaded a photo on <a href="www.missyou.io/memorial/${memorial.webAddress}"> ${memorial.firstname}'s Memorial Page</a>
         </p>  
 
         <p> 
