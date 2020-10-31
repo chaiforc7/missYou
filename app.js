@@ -23,7 +23,7 @@ cloudinary.config({
   api_secret: process.env.api_secret,
 });
 
-// connect db
+// connect to mongodb
 mongoose.connect(
   process.env.DATABASE_REMOTE,
   {
